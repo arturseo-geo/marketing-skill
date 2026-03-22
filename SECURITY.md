@@ -9,7 +9,7 @@ This repository contains a Claude Code skill — a set of markdown instructions 
 If you discover a security concern (e.g., prompt injection risks, instructions that could cause Claude to leak sensitive data, or any content that could be exploited), please report it responsibly:
 
 1. **Do not** open a public issue
-2. Email the maintainer or open a private security advisory via GitHub
+2. Email **artur@thegeolab.net** or open a private security advisory via GitHub
 3. Include a clear description of the concern and steps to reproduce
 
 ## What Counts as a Security Issue
