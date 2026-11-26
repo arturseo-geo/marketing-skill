@@ -228,3 +228,29 @@ Next Month Priorities:
 - `feature_activated` — for SaaS onboarding
 - `trial_started` — conversion tracking
 - `upgrade_initiated` — upsell tracking
+
+
+## Paid Acquisition (PPC) Performance Audit
+
+Use this workflow when analyzing paid ad exports (Google Ads, Meta Ads, LinkedIn Ads) to identify wasted spend, creative fatigue, and budget reallocation opportunities.
+
+### 1. Cross-Platform Funnel & Efficiency Check
+- **Never sum platform-reported conversions directly** across Meta and Google Ads without deduplication (view-through and multi-touch overlap inflate totals by 15–40%).
+- Evaluate each channel independently using **CPA (Cost per Acquisition)**, **ROAS (Return on Ad Spend)**, and **Blended CAC** (`Total Ad Spend / Total New Customers` from CRM or backend analytics).
+- Flag any campaign spending **>2x target CPA** over the last 14 days with statistically meaningful volume (≥100 clicks or ≥2,000 impressions).
+
+### 2. Diagnostic Thresholds & Action Triggers
+
+| Signal | Threshold / Trigger | Root Cause | Recommended Action |
+| :--- | :--- | :--- | :--- |
+| **Creative Fatigue (Meta / Social)** | CTR drops **≥20%** vs. first-7-day baseline while Frequency exceeds **3.0–3.5** | Audience saturation or ad burnout | Rotate new hook variations; pause fatigued creative sets |
+| **Search Term Waste (Google Ads)** | Spend **≥1.5x target CPA** on non-converting search terms | Broad/phrase match drift | Add negative keywords; tighten match types on core intent |
+| **Budget Pacing Risk** | Month-to-date spend deviates **>15%** from linear daily target | Capped high-ROAS campaigns or under-delivery | Reallocate unused budget from underperforming ad sets to capped winners |
+| **Tracking / Attribution Discrepancy** | Platform conversions exceed backend/CRM orders by **>25%** | Double-counting pixels or inflated view-through attribution | Audit pixel/CAPI deduplication and restrict attribution to 7-day click / 1-day view |
+
+### 3. PPC Audit Output Structure
+When delivering a paid media audit to the user, structure the response into:
+1. **Account Health Summary:** Total spend, blended CAC vs. target, and primary efficiency bottleneck.
+2. **Cut List (Wasted Spend):** Specific campaigns, ad sets, or search terms to pause immediately with projected monthly savings.
+3. **Scale List (Winners):** Campaigns hitting target CPA/ROAS that are budget-capped or have room to scale by 15–20% every 3–4 days.
+4. **Next Creative / Testing Queue:** 3 concrete ad angles or landing page tests based on top-converting audience segments.
